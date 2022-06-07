@@ -1,0 +1,17 @@
+.App {
+  background: #2193b0;
+  background: -webkit-linear-gradient(to bottom, #6dd5ed, #2193b0);
+  background: linear-gradient(to bottom, #6dd5ed, #2193b0);
+
+  width: 100vw;
+  height: 100vh;
+
+  padding: 1em;
+  overflow: scroll;
+}
+
+@media screen and (orientation: landscape) and (max-width: 844px) {
+  .App {
+    padding: .5em 1em;
+  }
+}
